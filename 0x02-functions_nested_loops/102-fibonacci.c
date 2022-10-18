@@ -2,10 +2,8 @@
 
 /**
 * main - prints the first 50 Fibonacci numbers starting with 1 and 2
-* 
 * Return: int.
 */
-
 
 int main(void)
 {
@@ -14,7 +12,7 @@ int main(void)
 	long j = 1;
 	int n = 0;
 	long fib;
-	
+
 	while (n < 50)
 	{
 		fib = j + i;
