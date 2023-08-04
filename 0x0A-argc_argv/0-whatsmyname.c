@@ -7,7 +7,6 @@
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	// (void) argc - Implicit
-	printf("%s\n", argv[0]); // This will print the name of the programe.
+	printf("%s\n", argv[0]);
 	return (0);
 }
